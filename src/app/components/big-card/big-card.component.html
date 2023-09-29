@@ -1,21 +1,20 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://media.contentapi.ea.com/content/dam/news/www-ea/images/2022/09/ea-motive-new-title-teaser-16x9-featured.jpg.adapt.crop191x100.628p.jpg"
+    <img src="{{ photoCover }}"
       alt=""
       height="200px"
       srcset=""
     >
   </div>
 
-
-    <div class="big-card__title">
-      <h1><a href="">Saiu a nova versao do Angular!</a></h1>
-    </div>
+  <div class="big-card__title">
+    <h1><a href="">{{ cardTitle }}</a></h1>
+  </div>
 
   <div class="big-card__description">
     <p>
       <a href="">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quasi! Eos voluptatum debitis reiciendis natus? Do
+      {{ cardDescription }}
       </a>
     </p>
   </div>
